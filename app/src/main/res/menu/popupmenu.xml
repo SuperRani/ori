@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/popupCheck"
+        android:title="체크리스트">
+    </item>
+
+    <item
+        android:id="@+id/popupEstate"
+        android:title="부동산 위치, 평판"></item>
+</menu>

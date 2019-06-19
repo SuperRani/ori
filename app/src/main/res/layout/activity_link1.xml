@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Link1Activity"
+    android:gravity="center"
+    android:background="#F8EAB5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity ="center"
+        android:fillViewport="true"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity ="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtube1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+        </com.google.android.youtube.player.YouTubePlayerView>
+
+            <ImageButton
+                android:id="@+id/play1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="@drawable/play"
+                android:text="재생" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="자취요리 15가지"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal|bottom"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtube2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+            </com.google.android.youtube.player.YouTubePlayerView>
+
+            <ImageButton
+                android:id="@+id/play2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="@drawable/play"
+                android:text="재생" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="초간단 찌개 황금레시피 BEST4"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal|bottom"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtube3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+            </com.google.android.youtube.player.YouTubePlayerView>
+
+            <ImageButton
+                android:id="@+id/play3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="@drawable/play"
+                android:text="재생" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="초간단 4대라면 레시피"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal|bottom"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtube4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+            </com.google.android.youtube.player.YouTubePlayerView>
+
+            <ImageButton
+                android:id="@+id/play4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="@drawable/play"
+                android:text="재생" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="볶음밥 레시피 모음"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal|bottom"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtube5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+            </com.google.android.youtube.player.YouTubePlayerView>
+
+            <ImageButton
+                android:id="@+id/play5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="@drawable/play"
+                android:text="재생" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="간단한 전자렌지 요리 6가지"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal|bottom"/>
+        </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">자취 꼼꼼</string>
+    <string name="place">place</string>
+    <string name="day">day</string>
+    <string name="estate">estate</string>
+    <string name="address">address</string>
+</resources>

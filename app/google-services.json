@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "2628723893",
+    "firebase_url": "https://livealone-cc2a7.firebaseio.com",
+    "project_id": "livealone-cc2a7",
+    "storage_bucket": "livealone-cc2a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2628723893:android:6496ed61fe1a23f5",
+        "android_client_info": {
+          "package_name": "com.example.livealoneproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2628723893-1b0v66q42tn8s2p7bof1d6e5oh401h2r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.livealoneproject",
+            "certificate_hash": "f94a2e98c93c1a289cc345ba07e4ec7c5c70bd9f"
+          }
+        },
+        {
+          "client_id": "2628723893-9qd1r4se4crs9chv9r6bbs96fqcaqhlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyLKOyO9SbIjsT0NoLUUxYbrjz9-B1EMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2628723893-9qd1r4se4crs9chv9r6bbs96fqcaqhlk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
